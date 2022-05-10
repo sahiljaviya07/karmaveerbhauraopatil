@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBP SCHOOL SANGLI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+       
+        <a href="index.html"><img src="images/templogo.jpg" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenue()"></i>
+        
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contactus.html">CONTACT</a></li>
+            
+        </div>
+        <i class="fa fa-bars" onclick="showMenue()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>RAYT SHIKSHAN SANSTHA</h1>
+        <P>Devloping our skills is one of the easiest thing in world.<br> you just need to intrest and you are go. </P>
+        <a href="blog.html" class="hero-btn"  >Visit Us To Know More</a>
+    </div>
+
+
+</section>
+
+<!--facilitis-->
+
+<section class="facilitis">
+    <h1>Our facilitis</h1>
+    <p>hello</p>
+
+
+
+
+    <div class="row">
+        <div class="facilitis-col">
+            <img src="./images/library.jpg"  width="200" height="200">
+            <h3>World class Library</h3>
+            <p>When in doubt go to Library  </p>
+        </div>
+
+        <div class="facilitis-col">
+            <img src="./images/computer-lab.jpg"  >
+            <h3>computer lab</h3>
+            <p>Have an any isseu go to computer lab</p>
+        </div>
+
+        <div class="facilitis-col">
+            <img src="./images/science lab.jpg"  >
+            <h3>Science lab</h3>
+            <p>Science is curiosty, testing and experimenting </p>
+        </div>
+    </div>
+
+</section>
+
+
+<!--testimonials-->
+
+<section class="testimonial">
+    <h1>What our Student Says</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="./images/PicsArt_12-18-04.29.27.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consectetur autem quas et quisquam ad itaque mollitia, minima quasi amet nemo. Cumque, perspiciatis libero laboriosam alias quod iusto voluptatum quos.</p>
+                <h3>manish tengale</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+
+            <div class="testimonial-col">
+                <img src="./images/PicsArt_12-18-04.29.27.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consectetur autem quas et quisquam ad itaque
+                        mollitia, minima quasi amet nemo. Cumque, perspiciatis libero laboriosam alias quod iusto voluptatum quos.
+                    </p>
+                    <h3>manish tengale</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+
+    </div>
+
+
+
+
+
+
+</section>
+
+
+
+
+<!--call to action-->
+
+<section class="cta">
+    <h1>Enroll for our various Online Courses  <br> Anywhere from the World</h1>
+    <a href="contactus.html" class="hero-btn">
+        CONTACT US
+    </a>
+</section>
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolor nesciunt quas eveniet rerum doloremque nemo commodi soluta voluptatibus ipsa voluptatum veniam in accusantium, quod harum laboriosam porro ducimus doloribus.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/Karmaveer-Bhaurao-Patil-Public-School-Sangli-192529788144613/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/KarmaveerPatil"><i class="fa fa-twitter"></i></a>
+       <a href="https://www.instagram.com/karmaveer_bhaurao_patil/"><i class="fa fa-instagram"></i></a>
+        
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> made by Student of this school Manish </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--java script-->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenue(){
+            navLinks.style.right= "0";
+        }
+
+        function hideMenue() {
+                navLinks.style.right = "-200px";
+            }
+    </script>
+</body>
+</html>

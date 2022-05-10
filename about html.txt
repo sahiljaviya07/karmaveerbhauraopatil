@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+</head>
+<body>
+<section class="Sub-header">
+    <nav>
+       
+        <a href="index.html"><img src="images/logo1.jpg" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenue()"></i>
+        
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            
+        </div>
+        <i class="fa fa-bars" onclick="showMenue()"></i>
+    </nav>
+<h1>About Us</h1>
+</section>
+
+
+<!--about us content -->
+
+<section class="about-us">
+    <div class="abut-col">
+        <h1>RAYAT SHIKSHAN SANSTHA</h1>
+        <P>KARMAVEER BHAURAO PATIL PUBLIC SCHOOL SANGLI was established in 2008 and it is managed by the Pvt. Unaided. It is
+        located in Urban area. It is located in SANGLI MIRAJ KUPWAD M. CORPORATION block of SANGLI district of Maharashtra. The
+        school consists of Grades from 1 to 6. The school is Co-educational and it have an attached pre-primary section. The
+        school is N/A in nature and is not using school building as a shift-school. English is the medium of instructions in
+        this school. This school is approachable by all weather road. In this school academic session starts in April.
+        The school has Private building. It has got 11 classrooms for instructional purposes. All the classrooms are in good
+        condition. It has 2 other rooms for non-teaching activities. The school has a separate room for Head master/Teacher. The
+        school has Pucca boundary wall. The school has have electric connection. The source of Drinking Water in the school is
+        Tap Water and it is functional. The school has 6 boys toilet and it is functional. and 7 girls toilet and it is
+        functional. The school has a playground. The school has a library and has 521 books in its library. The school does not
+        need ramp for disabled children to access classrooms. The school has 17 computers for teaching and learning purposes and
+        all are functional. The school is not having a computer aided learning lab. The school is Not Applicable providing
+        mid-day meal.</P>
+        <a href="">Explore now</a>
+    </div>
+    <div class="about-col">
+        <img src="images/about-us-details-contact-data-260nw-377373607.jpg" alt="">
+    </div>
+
+
+
+
+
+</section>
+
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolor nesciunt quas eveniet rerum doloremque nemo commodi soluta voluptatibus ipsa voluptatum veniam in accusantium, quod harum laboriosam porro ducimus doloribus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> made by Student of this school Manish </p>
+</section>
+
+
+
+
+
+<!--java script-->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenue(){
+            navLinks.style.right= "0";
+        }
+
+        function hideMenue() {
+                navLinks.style.right = "-200px";
+            }
+    </script>
+</body>
+</html>
